@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_forward" />
+    <link rel="stylesheet" href="style.css">  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="icon" type="image/jpg" href="LogoNS.png">
+    <script src="script.js" defer></script>
+    <title>CyboDemia</title>
+
+</head>
+
+<body>
+<section class="back">
+
+  <div class="welcometext">
+    <h2>Welcome to CyboDemia</h2>
+</div>
+
+
+<section class="content">
+
+<style>
+
+  .back {
+    width: 100%; height: 450px;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-image: 
+    linear-gradient(to right, 
+      rgba(0,0,0,1) 40%,
+      rgba(0,0,0,0.5) 70%, 
+      rgba(0,0,0,0) 90%
+    ),
+    url("nsbackground.webp");
+    background-size: cover;
+}
+
+
+</style>
+<div style="height: 100%;"></div>
+
+    <nav>
+<div class="logo-container">
+    <img src="LogoNS.png" alt="Logo">
+    <span>CyboDemia</span>
+  </div>
+
+<div class="nav-select">
+<ul>
+<li><button onclick="location.assign('Front.html')"class="hover-box"><img src="Home.png"><span class="tooltip">Home</span></button></a></li>
+<li><button onclick="scrollToSection('explore')" class="hover-box"><img src="Explore.png"><span class="tooltip">Explore</span></button></li>
+<li><button onclick="location.assign('About.html')" class="hover-box"><img src="About.png"><span class="tooltip">About</span></button></li>
+<li class="settings-item">
+  <button class="hover-box" id="settingsBtn">
+    <img src="Settings.png">
+    <span class="tooltip">Settings</span> 
+  <div class="dropdown" id="settingsMenu">
+
+  <a href="Appearance.html">Appearance</a>
+  <a href="Privacy.html">Privacy</a>
+  </div>
+</button>
+</li>
+</ul>
+</nav>
+</div>
+
+<section class="bodycontent">
+<div class="contentbody">
+
+<p>Welcome to CyboDemia, a free-access cybersecurity learning website that helps you understand online risks and stay safe in the digital world.</p>
+<hr>
+
+<section class="Explore" id="explore">
+<h2>Browse our collection of articles</h2>
+
+<div class="container swiper">
+  <div class="card-wrapper">
+    <ul class="card-list swiper-wrapper">
+      <li class="card-item swiper-slide">
+        <a href="Article1.html" class="card-link">
+          <img src="Cyber_Resources_Org_for_Underrep_Populations_383315c58.avif" alt="Card Image" 
+          class="card-image">
+          <p class="badge">2020</p>
+          <h3 class="card-title">Cyber Security Awareness Among University Students: A Case Study</h3>
+          <button class="card-button material-symbols-outlined">arrow_forward</button>
+        </a>
+      </li>
+      <li class="card-item swiper-slide">
+        <a href="Article2.html" class="card-link">
+          <img src="images.jpg" alt="Card Image" 
+          class="card-image">
+          <p class="badge">2025</p>
+          <h3 class="card-title">Cybersecurity awareness among school students: Exploring influencing factors, legal
+implications, and knowledge gaps</h3>
+          <button class="card-button material-symbols-outlined">arrow_forward</button>
+        </a>
+      </li>
+      <li class="card-item swiper-slide">
+        <a href="Article3.html" class="card-link">
+          <img src="cyber-security-hack.jpg" alt="Card Image" 
+          class="card-image">
+          <p class="badge">2024</p>
+          <h3 class="card-title">CYBER SECURITY AWARENESS AND ITS IMPORTANCE AMONG GRADE 11 HUMSS STUDENTS IN AGUSAN NATIONAL HIGH SCHOOL - SENIOR HIGH SCHOOL</h3>
+          <button class="card-button material-symbols-outlined">arrow_forward</button>
+        </a>
+      </li>
+      <li class="card-item swiper-slide">
+        <a href="Article4.html" class="card-link">
+          <img src="shield.jpg" alt="Card Image" 
+          class="card-image">
+          <p class="badge">2024</p>
+          <h3 class="card-title">Measuring the Level of Cybersecurity Awareness among Senior High School Students</h3>
+          <button class="card-button material-symbols-outlined">arrow_forward</button>
+        </a>
+      </li>
+    </ul>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script src="script.js"></script>
+
+<p>
+</p>
+</section>
+<hr>
+<p>We gather articles we believe are valuable and informative, designed to help users explore topics, gain knowledge, and stay informed on what matters most to them. We acknowledge and appreciate the authors and sources whose work contributes to the knowledge shared in this section.</p>
+<hr>
+<h2>Learn Cybersecurity</h2>
+<h3>What is Cybersecurity?</h3>
+<p>Cybersecurity is the practice of protecting systems, networks, and data from digital attacks, unauthorized access, and harm.</p>
+<center>
+<img src="Cybersafe.jpg" class="Cyberimage">
+</center>
+
+
+<p>Learning and practicing cybersecurity can help individuals better understand and defend against digital risks. It is essential in protecting personal information, devices, and systems from threats such as hacking, fraud, and data breaches. As more aspects of daily life move online such as communication, education, banking, shopping, and entertainment, cybersecurity becomes increasingly important in ensuring privacy, safety, and trust in digital interactions. It also plays a critical role in preventing cybercrimes and safeguarding sensitive data in a highly connected world. Furthermore, cybersecurity promotes responsible use of technology for individuals, organizations, and society as a whole.</p>
+<hr>
+
+<section class="safety">
+<h2>Online Safety and Security</h2>
+<p>Staying safe online is an important part of using the internet responsibly. These simple cybersecurity practices help protect your personal information, prevent cyber threats, and reduce the risk of scams and data breaches. Following these tips can greatly improve your digital safety in everyday online activities.</p>
+<li>Use strong, unique passwords</li>
+<li>Enable two-factor authentication (2FA)</li>
+<li>Avoid clicking suspicious links or attachments</li>
+<li>Be careful with sharing personal information</li>
+<li>Keep devices and apps updated</li>
+<li>Use secure websites and log out on shared devices</li>
+</section>
+<hr>
+
+<section class="threat">
+  <h2>Digital Threat Awareness</h2>
+  <h3>What are Cyber Threats?</h3>
+  <p>Cyber threats are harmful activities carried out through digital systems that aim to damage, disrupt, or gain unauthorized access to data, devices, and networks.</p>
+<center>
+<img src="threat.jpg" class="CyberThreatimage">
+</center>
+<p>Digital threats can take many forms, such as phishing, malware, hacking, and online scams, and they continue to evolve as technology advances. As individuals increasingly rely on digital platforms for communication, education, and daily tasks, understanding cyber threats is essential in recognizing risks and preventing potential harm. Being aware of these threats helps users take appropriate precautions and make safer decisions when navigating the digital world.
+</p>
+<p>Below are some of the most common types of cyber threats:</p>
+<li><b>Phishing</b> - Fake messages or websites used to trick users into giving personal information.</li>
+<li><b>Malware</b> - Harmful software designed to damage or disrupt devices and systems.</li>
+<li><b>Ransomware</b> - A type of malware that locks data or systems and demands payment to restore access.</li>
+<li><b>Spyware</b> - Software that secretly monitors and collects user information without consent.</li>
+<li><b>Hacking</b> - Unauthorized access to systems or accounts to steal, alter, or destroy data.</li>
+<li><b>Data Breaches</b> - Exposure or theft of sensitive information from a system or database.</li>
+<li><b>Identity Theft</b> - Stealing personal information to impersonate someone for fraud or misuse.</li>
+<p>Cyber threats continue to evolve as technology advances, making awareness and understanding more important than ever. By recognizing these threats, individuals can take the necessary steps to protect themselves and stay safe in the digital world.</p>
+
+</section>
+<hr>
+
+<style>
+.quiz-section {
+  padding: 40px;
+  background-color: rgb(26, 26, 27);
+  color: #93ccf8;
+  font-size: 120%;
+  text-align: center;
+}
+
+.quiz-section h2 {
+  color: rgb(131, 178, 244);
+  font-size: 150%;
+  margin-bottom: 5px;
+}
+
+.quiz-subtext {
+  color: #6faedb;
+  margin-bottom: 25px;
+}
+
+.quiz-box {
+  max-width: 50%;
+  margin: auto;
+  background: #2c2c2c;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.question {
+  margin-bottom: 25px;
+  text-align: left;
+}
+
+.question p {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.question button {
+  display: block;
+  width: 100%;
+  margin: 5px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background-color: rgb(131, 178, 244);
+  color: rgb(26, 26, 27);
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: bold;
+  font-size: 80%;
+}
+
+.question button:hover {
+  background-color: #ffffff;
+}
+
+.question button.selected {
+  background-color: #ffffff;
+  color: rgb(26, 26, 27);
+}
+
+.correct {
+  background-color: #16a34a !important;
+  color: #fff !important;
+}
+
+.wrong {
+  background-color: #dc2626 !important;
+  color: #fff !important;
+}
+
+.submit-btn {
+  margin-top: 20px;
+  padding: 12px 20px;
+  background-color: rgb(131, 178, 244);
+  color: #0b0f1a;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+  font-size: 80%;
+}
+
+.submit-btn:hover {
+  background-color: #6fb8ec;
+}
+
+.submit-btn:disabled {
+  background-color: #555;
+  color: #aaa;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.result-text {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.retry-btn {
+  display: none;
+  margin-top: 10px;
+  padding: 10px 18px;
+  background-color: transparent;
+  color: #93ccf8;
+  border: 2px solid #104d7c;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.retry-btn:hover {
+  background-color: #104d7c;
+  color: #fff;
+}
+</style>
+
+<section class="quiz-section">
+  <h2>Quick Cybersecurity Quiz</h2>
+  <p class="quiz-subtext">Test your knowledge and stay cyber-safe!</p>
+
+  <div class="quiz-box">
+
+    <div class="question" data-correct="B">
+      <p>1. What is a data breach?</p>
+      <button data-answer="A">A. A type of antivirus</button>
+      <button data-answer="B">B. Exposure of sensitive information</button>
+      <button data-answer="C">C. A strong password</button>
+    </div>
+
+    <div class="question" data-correct="B">
+      <p>2. What does phishing try to do?</p>
+      <button data-answer="A">A. Improve security</button>
+      <button data-answer="B">B. Steal personal information</button>
+      <button data-answer="C">C. Fix system errors</button>
+    </div>
+
+    <div class="question" data-correct="B">
+      <p>3. What is hacking?</p>
+      <button data-answer="A">A. Protecting systems from threats</button>
+      <button data-answer="B">B. Unauthorized access to systems or accounts</button>
+      <button data-answer="C">C. Creating strong passwords</button>
+    </div>
+
+    <div class="question" data-correct="B">
+      <p>4. What should you do with suspicious emails?</p>
+      <button data-answer="A">A. Open immediately</button>
+      <button data-answer="B">B. Ignore or report them</button>
+      <button data-answer="C">C. Reply with personal info</button>
+    </div>
+
+    <div class="question" data-correct="B">
+      <p>5. What is identity theft?</p>
+      <button data-answer="A">A. Creating new accounts</button>
+      <button data-answer="B">B. Stealing someone’s personal data</button>
+      <button data-answer="C">C. Changing passwords</button>
+    </div>
+
+    <button class="submit-btn" disabled>Submit Answers</button>
+    <button class="retry-btn">Retry Quiz</button>
+    <p class="result-text"></p>
+
+  </div>
+</section>
+
+<script>
+const questions = document.querySelectorAll(".question");
+const submitBtn = document.querySelector(".submit-btn");
+const retryBtn = document.querySelector(".retry-btn");
+const resultText = document.querySelector(".result-text");
+
+submitBtn.disabled = true;
+
+// check if all questions answered
+function checkAllAnswered() {
+  const allAnswered = [...questions].every(q =>
+    q.querySelector(".selected")
+  );
+
+  submitBtn.disabled = !allAnswered;
+}
+
+
+questions.forEach(q => {
+  const buttons = q.querySelectorAll("button");
+
+  buttons.forEach(btn => {
+    btn.addEventListener("click", () => {
+      buttons.forEach(b => b.classList.remove("selected"));
+      btn.classList.add("selected");
+
+      checkAllAnswered();
+    });
+  });
+});
+
+
+submitBtn.addEventListener("click", () => {
+  let score = 0;
+
+  questions.forEach(q => {
+    const correct = q.dataset.correct;
+    const buttons = q.querySelectorAll("button");
+
+    buttons.forEach(btn => {
+      const answer = btn.dataset.answer;
+
+      btn.disabled = true;
+
+      if (answer === correct) {
+        btn.classList.add("correct");
+      }
+
+      if (btn.classList.contains("selected") && answer !== correct) {
+        btn.classList.add("wrong");
+      }
+
+      if (btn.classList.contains("selected") && answer === correct) {
+        score++;
+      }
+    });
+  });
+
+  resultText.textContent = `You scored ${score} / ${questions.length}`;
+  retryBtn.style.display = "inline-block";
+});
+
+retryBtn.addEventListener("click", () => {
+  questions.forEach(q => {
+    const buttons = q.querySelectorAll("button");
+
+    buttons.forEach(btn => {
+      btn.classList.remove("selected", "correct", "wrong");
+      btn.disabled = false;
+    });
+  });
+
+  resultText.textContent = "";
+  retryBtn.style.display = "none";
+  submitBtn.disabled = true;
+});
+
+</script>
+
+</body>
+</html>
+<hr>
+<p>In today’s increasingly digital world, understanding cybersecurity, cyber threats, and online risks is essential for maintaining safety and protecting personal information. By becoming more informed and aware, individuals can make smarter decisions and reduce their vulnerability to cybercrimes.
+CyboDemia aims to support this awareness by providing accessible and reliable information for all users. 
+<div class="lasttext">
+<p>We hope CyboDemia has helped you better understand cybersecurity and increased your awareness of cyber threats.</p>
+<center>
+<img src="LogoNS.png" class="logolast">
+</center>
+</div>
+</section>
+</div>
+<script>
+function scrollToSection(sectionId) {
+  const section = document.getElementById(sectionId);
+
+  const yOffset = -120; // adjust this value (negative = higher)
+  const y = section.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+  window.scrollTo({
+    top: y,
+    behavior: "smooth"
+  });
+}
+</script>
+
+<script>
+const questions = document.querySelectorAll(".question");
+const submitBtn = document.querySelector(".submit-btn");
+const resultText = document.querySelector(".result-text");
+
+
+questions.forEach(q => {
+  const buttons = q.querySelectorAll("button");
+
+  buttons.forEach(btn => {
+    btn.addEventListener("click", () => {
+
+      buttons.forEach(b => b.classList.remove("selected"));
+      btn.classList.add("selected");
+    });
+  });
+});
+
+submitBtn.addEventListener("click", () => {
+  let score = 0;
+
+  questions.forEach(q => {
+    const correct = q.dataset.correct;
+    const buttons = q.querySelectorAll("button");
+
+    buttons.forEach(btn => {
+      const answer = btn.dataset.answer;
+
+  
+      btn.disabled = true;
+
+      if (answer === correct) {
+        btn.classList.add("correct");
+      }
+
+      if (btn.classList.contains("selected") && answer !== correct) {
+        btn.classList.add("wrong");
+      }
+
+      if (btn.classList.contains("selected") && answer === correct) {
+        score++;
+      }
+    });
+  });
+
+  resultText.textContent = `You scored ${score} / ${questions.length}`;
+
+
+  if (score === 5) {
+    resultText.textContent += " 🔥 Excellent!";
+  } else if (score >= 3) {
+    resultText.textContent += " 👍 Good job!";
+  } else {
+    resultText.textContent += " ⚠️ Keep learning!";
+  }
+
+
+ const resultText = document.querySelector(".result-text");
+
+  questions.forEach(q => {
+    const buttons = q.querySelectorAll("button");
+
+    buttons.forEach(btn => {
+      btn.classList.remove("selected", "correct", "wrong");
+      btn.disabled = false;
+    });
+  });
+
+  resultText.textContent = "";
+});
+</script>
+</body>
+</html>

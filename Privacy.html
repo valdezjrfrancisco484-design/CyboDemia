@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_forward" />
+    <link rel="stylesheet" href="style.css">  
+    <link rel="icon" type="image/jpg" href="LogoNS.png">
+
+    <script src="script.js" defer></script>
+
+    <title>CyboDemia</title>
+
+    <style>
+
+
+      .contentbody {
+        display: flex;
+        justify-content: center;
+        padding: 40px 20px;
+      }
+
+      .privacy-box {
+        max-width: 800px;
+        width: 100%;
+
+        background: rgb(26, 26, 27);
+        color: #93ccf8;
+
+        padding: 25px;
+        border-radius: 12px;
+
+        box-shadow: 0 0 12px rgba(0,0,0,0.4);
+        text-align: left;
+      }
+
+      .privacy-box h2 {
+        color: rgb(131, 178, 244);
+        text-align: center;
+        margin-bottom: 15px;
+      }
+
+      .privacy-box h3 {
+        color: #6faedb;
+        margin-top: 15px;
+      }
+
+      .cookie-notice {
+        margin-top: 10px;
+        padding: 10px;
+        background: #222;
+        color: #93ccf8;
+        border-left: 4px solid #104d7c;
+        font-size: 14px;
+      }
+
+      .trust-badge {
+        margin-top: 20px;
+        padding: 10px;
+        background: #104d7c;
+        color: white;
+        text-align: center;
+        border-radius: 8px;
+      }
+    </style>
+</head>
+
+<body>
+
+<section class="back">
+
+
+  <div style="height: 100%;"></div>
+
+  <nav>
+    <div class="logo-container">
+        <img src="LogoNS.png" alt="Logo">
+        <span>CyboDemia</span>
+    </div>
+
+    <div class="nav-select">
+      <ul>
+        <li><button onclick="location.assign('Front.html')" class="hover-box"><img src="Home.png"><span class="tooltip">Home</span></button></li>
+        <li><button onclick="location.assign('Front.html')" class="hover-box"><img src="Explore.png"><span class="tooltip">Explore</span></button></li>
+        <li><button onclick="location.assign('About.html')" class="hover-box"><img src="About.png"><span class="tooltip">About</span></button></li>
+
+        <li class="settings-item">
+          <button class="hover-box" id="settingsBtn">
+            <img src="Settings.png">
+            <span class="tooltip">Settings</span> 
+
+            <div class="dropdown" id="settingsMenu">
+              <a href="Appearance.html">Appearance</a>
+              <a href="Privacy.html">Privacy</a>
+            </div>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</section>
+
+<section class="contentbody">
+
+  <div class="privacy-box">
+
+    <h2>Privacy & Data Policy</h2>
+
+    <p>
+      We respect your privacy and are committed to keeping your experience safe and secure while using CyboDemia.
+    </p>
+
+    <h3>1. Data We Collect</h3>
+    <p>
+      We do not collect personal data such as names, passwords, or emails.  
+      We may store basic interaction data like quiz answers and preferences (e.g. language selection).
+    </p>
+
+    <h3>2. How We Use Data</h3>
+    <p>
+      Any stored data is used only to improve user experience, such as saving language preferences or quiz progress.
+      We do not sell or share data with third parties.
+    </p>
+
+    <h3>3. Cookies & Local Storage</h3>
+    <p>
+      This website uses local storage to remember user preferences like selected language.
+      No tracking cookies are used for advertising purposes.
+    </p>
+
+    <div class="cookie-notice">
+      ⚠ This site uses local storage only for user preferences (e.g. language settings).
+    </div>
+
+    <h3>4. Security</h3>
+    <p>
+      We use basic web security practices to ensure safe browsing. However, users are encouraged to avoid sharing sensitive information online.
+    </p>
+
+    <h3>5. User Control</h3>
+    <p>
+      Users can clear stored preferences anytime by clearing browser storage/cache.
+    </p>
+
+    <h3>6. Trust & Transparency</h3>
+    <p>
+      CyboDemia is built as an educational platform. We prioritize transparency and do not intentionally collect personal sensitive data.
+    </p>
+
+    <div class="trust-badge">
+      Your privacy matters — No personal data is collected or sold
+    </div>
+
+  </div>
+
+</section>
+
+</body>
+</html>

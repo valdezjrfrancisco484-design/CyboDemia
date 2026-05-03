@@ -1,0 +1,11 @@
+.Logo {
+    max-width: 5.5%;
+    height: auto;
+    margin-top: 10px;
+    position: relative;
+    left: -45%;
+    animation: moveup 0.5s linear forwards;
+    animation-delay: 0.2s;
+    opacity: 0;
+    transform: translateX(-30px);
+}
